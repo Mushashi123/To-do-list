@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background: url('../image/bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container{
+    border: 2px solid black;
+    padding: 0.5em 0.75em;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(223, 220, 166);
+    border-radius: 12px;
+    transform: 1s ease;
+    margin: 0.6em 0;
+}
+
+.container:hover{
+    border-color:rgb(67, 215, 67) ;
+}
+
+#list-maker{
+    width: 80%;
+    height: 2.1em;
+    border-radius: 12px;
+    padding: 0.2em 0.4em;
+}
+
+.add{
+    width: 10%;
+    border: 2px solid rgb(67, 215, 67);
+    text-align: center;
+    margin: 0 1em;
+    padding: 0.4em;
+    cursor: pointer;
+    transform: 0.4 ease;
+}
+
+.add:hover{
+    background-color: rgb(67, 215, 67);
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* for the task containers  */
+.container-task{
+    width: 35%;
+    justify-content: space-between;
+}
+
+.btn-holder{
+    display: flex;
+    flex-grow: 1;
+    padding: 0.25em;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.task{
+    padding: 0.25em;
+    flex-grow: 5;
+    font-size: 1.2rem;
+    
+}
+
+.btn{
+    border: 2px solid red;
+    padding: 0.25em;
+    cursor: pointer;
+    margin: 0 0.1em;
+    transition: 0.4s ease;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+}
